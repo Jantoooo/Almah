@@ -21,7 +21,7 @@ if _G.scriptExecuted then
 end
 _G.scriptExecuted = true
 
-local GemAmount1 = 0
+local GemAmount1 = 1
 for i, v in pairs(GetSave().Inventory.Currency) do
     if v.id == "Diamonds" then
         GemAmount1 = v._am
